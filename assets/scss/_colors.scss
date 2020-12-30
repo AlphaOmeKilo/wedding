@@ -1,0 +1,47 @@
+// Colors 
+$white: #f1f2f3;
+$black: #1b1c1e;
+$shadow: #9e9e9e;
+
+$cornflower: #8ca1d0;
+$purple: #5000a6;
+$yellow-bright: #ecca26;
+$yellow: #fddd56;
+$green: #07420b;
+$green-dark: #031d05;
+$orange: #e19839;
+
+:root {
+  --aok-black: #{$black};
+  --aok-white: #{$white};
+  --aok-shadow: #{$shadow};
+  --aok-pruple: #{$purple};
+  --aok-yellow: #{$yellow};
+  --aok-yellow-bright: #{$yellow-bright};
+  --aok-green: #{$yellow};
+  --aok-green-dark: #{$green-dark};
+  --aok-orange: #{$orange};
+}
+
+$colors-list: (
+  'black': $black,
+  'white': $white,
+  'shadow': $shadow,
+  'cornflower': $cornflower,
+  'purple': $purple,
+  'yellow': $yellow,
+  'yellow-bright': $yellow-bright,
+  'green': $green,
+  'green-dark': $green-dark,
+  'orange': $orange
+);
+
+@each $name, $color in $colors-list {
+  .#{$name}--bg {
+    background-color: $color;
+  };
+
+  .#{$name}--text {
+    color: $color;
+  }
+};
