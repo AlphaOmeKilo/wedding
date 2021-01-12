@@ -2,11 +2,26 @@ button {
   box-sizing: border-box;
   padding: 12px 24px;
   border-radius: 6px;
+  font-size: 18px;
+  font-family: "Luis Sans Regular", sans-serif;
   border: none;
   cursor: pointer;
 
   &.primary {
     background-color: $cornflower;
     color: $white;
+
+    &.text {
+      background-color: transparent;
+      color: $cornflower;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &:focus {
+    outline:0;
   }
 }
+
+
