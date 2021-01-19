@@ -1,16 +1,9 @@
 $font_path: '~@/assets/fonts/';
 
 @font-face {
-  font-family: 'HeartLove';
-  src: url($font_path + 'heart_love-webfont.woff2') format('woff2'),
-       url($font_path + 'heart_love-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'De Valencia';
-  src: url($font_path + 'de-valencia-webfont.woff') format('woff');
+  font-family: 'Boulevard';
+  src: url($font_path + 'boulevard-webfont.woff2') format('woff2'),
+       url($font_path + 'boulevard-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,15 +30,11 @@ $font_path: '~@/assets/fonts/';
 }
 
 .calligraphy {
-  font-family: "HeartLove", sans-serif;
-}
-
-.valencia {
-  font-family: "De Valencia", sans-serif;
+  font-family: "Boulevard", sans-serif !important;
 }
 
 .lsbold {
-  font-family: "Luis Sans Bold", sans-serif;
+  font-family: "Luis Sans Bold", sans-serif !important;
 }
 
 .bold {
