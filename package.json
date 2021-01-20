@@ -6,7 +6,7 @@
     "node": "14.3.0"
   },
   "scripts": {
-    "dev": "NUXT_PORT=process.env.PORT nuxt-ts",
+    "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate"
