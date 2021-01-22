@@ -43,6 +43,6 @@ $colors-list: (
   };
 
   .#{$name}--text {
-    color: $color;
+    color: $color !important;
   }
 };

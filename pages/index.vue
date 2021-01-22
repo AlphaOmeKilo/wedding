@@ -6,7 +6,9 @@
     >
       <div class="uk-container uk-width-1-1">
         <div class="uk-grid uk-flex-center">
-          <div class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l">
+          <div
+            class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-position-relative"
+          >
             <img
               uk-scrollspy="cls:uk-animation-fade; delay:1000"
               data-src="~/assets/images/awreatha.png"
@@ -30,6 +32,7 @@
               <a href="#gryffs-thoughts" class="lsbold">Gryff's Thoughts</a>
             </li>
             <li><a href="#order" class="lsbold">Order of the day</a></li>
+            <li><a href="#typeform" class="lsbold green--text">RSVP</a></li>
           </ul>
         </div>
       </nav>
@@ -112,7 +115,7 @@
       <div
         class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
         data-src="~/assets/images/aisle.jpg"
-        uk-parallax="bgy: -50"
+        uk-parallax="bgy: -150"
         uk-img
       ></div>
     </div>
@@ -170,21 +173,36 @@
     </div>
     <div id="order" class="uk-section">
       <div class="uk-container">
-        
-        <div class="uk-grid uk-flex-center">
+        <div class="uk-flex uk-flex-center">
           <div class="uk-card uk-card-default uk-card-body uk-width-3-4">
             <h2 class="calligraphy uk-text-center">Order of the day</h2>
             <div class="uk-grid">
               <h3 class="uk-width-2-5 calligraphy">1pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">Guest arrival for drinks reception</div>
+              <div class="uk-width-3-5 uk-flex uk-flex-middle">
+                Guest arrival for drinks reception
+              </div>
               <h3 class="uk-width-2-5 calligraphy">1.45pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">Guests take their seats for the ceremony</div>
+              <div class="uk-width-3-5 uk-flex uk-flex-middle">
+                Guests take their seats for the ceremony
+              </div>
               <h3 class="uk-width-2-5 calligraphy">2pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">Ceremony begins</div>
+              <div class="uk-width-3-5 uk-flex uk-flex-middle">
+                Ceremony begins
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="uk-section">
+      <Typeform
+        id="typeform"
+        url="https://46l2qpkiovw.typeform.com/to/lCdkvKSx"
+        :hide-headers="true"
+        :hide-footer="true"
+        :opacity="0"
+        :on-submit="onSubmit"
+      />
     </div>
   </div>
 </template>
@@ -192,7 +210,18 @@
 <script lang="ts">
 import Vue from "vue";
 
-export default Vue.extend({});
+export default Vue.extend({
+  data: () => ({
+    alexLetter: "A",
+    andLetter: "&",
+    ceriLetter: "C",
+  }),
+  methods: {
+    onSubmit() {
+      console.log("message sent!");
+    },
+  },
+});
 </script>
 
 <style lang="scss" scoped>
@@ -218,5 +247,10 @@ export default Vue.extend({});
     background-color: var(--aok-white);
     z-index: 10;
   }
+}
+
+#typeform {
+  height: 100vh;
+  min-height: 400px;
 }
 </style>
