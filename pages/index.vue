@@ -46,9 +46,10 @@
           Our Story
         </h2>
         <div class="uk-grid">
-          
           <div class="uk-width-1-1 uk-width-3-5@l uk-flex">
-            <div class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right">
+            <div
+              class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right"
+            >
               <p
                 uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
               >
@@ -61,7 +62,9 @@
                 of swipes on a little app called Bumble, he matches with his
                 future wife, Ceri, and the rest, they say, is history.
               </p>
-              <div class="uk-flex uk-flex-center uk-padding-small uk-padding-remove-left uk-padding-remove-right">
+              <div
+                class="uk-flex uk-flex-center uk-padding-small uk-padding-remove-left uk-padding-remove-right"
+              >
                 <img
                   uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
                   data-src="~/assets/images/alexkid.jpeg"
@@ -94,7 +97,9 @@
               </p>
             </div>
           </div>
-          <div class="uk-width-1-1 uk-width-2-5@s uk-width-2-5@m uk-flex-first@l uk-padding uk-padding-remove-right uk-padding-remove-top">
+          <div
+            class="uk-width-1-1 uk-width-2-5@s uk-width-2-5@m uk-flex-first@l uk-padding uk-padding-remove-right uk-padding-remove-top"
+          >
             <img
               uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
               data-src="~/assets/images/bawFam.jpg"
@@ -106,43 +111,71 @@
             class="uk-width-1-1 uk-width-3-5@s uk-width-3-5@m uk-width-1-1@l"
             uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
           >
-          <p>
-            On the 22nd July 2018 at the Griffin Pub in Caversham, Reading, Alex
-            and Ceri had their first date which was over 7 hours long. It left
-            the waiting staff wondering if they would ever leave the restaurant,
-            the car parking inspectors no choice but to issue tickets and both
-            Alex and Ceri with the sense that this first date was the start of
-            something special. After two years together, Ceri's graduation as a
-            midwife, 2 new jobs for Alex, a home together with Gryff and 1
-            global pandemic, Alex decided he liked it and put a ring on it.
-          </p>
+            <p>
+              On the 22nd July 2018 at the Griffin Pub in Caversham, Reading,
+              Alex and Ceri had their first date which was over 7 hours long. It
+              left the waiting staff wondering if they would ever leave the
+              restaurant, the car parking inspectors no choice but to issue
+              tickets and both Alex and Ceri with the sense that this first date
+              was the start of something special. After two years together,
+              Ceri's graduation as a midwife, 2 new jobs for Alex, a home
+              together with Gryff and 1 global pandemic, Alex decided he liked
+              it and put a ring on it.
+            </p>
           </div>
         </div>
       </div>
     </div>
     <div id="the-proposal" class="uk-section">
       <div class="uk-container">
+        <h2
+          class="calligraphy"
+          uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260"
+        >
+          The Proposal
+        </h2>
         <div class="uk-grid">
           <div class="uk-width-1-1 uk-width-3-5@m uk-flex-last uk-flex-first@s">
-            <div class="text-content uk-padding-small">
-              <h2
-                class="calligraphy"
-                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260"
-              >
-                The Proposal
-              </h2>
+            <div
+              class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right"
+            >
               <p
                 uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
               >
-                On the 22nd July 2018 at the Griffin Pub in Caverham, Reading,
-                Alex and Ceri had a first date which was 7 hours long. It left
-                the waiting staff wondering if they would ever leave the
-                restaurant, the car parking inpectors no choice but to issue
-                tickets and both Alex and Ceri with the sense that this first
-                date was the start of something special. Fast forward through
-                Ceri's graduation as a midwife, 2 new jobs for Alex, a home
-                together with Gryff and 1 global pandemic, Alex got down onto
-                one knee and asked Ceri to marry him.
+                For weeks before the proposal, I had been floating the idea to
+                Ceri about going for a walk somewhere that wasn't one of our
+                usual walking locations. Having originally suggested Reigate
+                Hill in Surrey, Boris, the spanner, went and put a spanner in
+                the works the night before and declared Surrey out of bounds to
+                us in tier 4. Luckily I had a backup location of Windsor and the
+                long walk would make a perfect setting to pop the big question.
+              </p>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+              >
+                After what seemed like the longest walk of my life, and having
+                had to make normal conversation along the way, we got to the top
+                of the hill overlooking Windsor and the castle. We went to sit
+                down and I poured some luke-warm hot chocolate ( I had forgotten
+                to put the thermal lid back on the flask having been a bit
+                preoccupied.. ). The plan had initially been to propose as we
+                sat there, but as we had both Gryff and Meg (Ceri's mum's dog)
+                with us, being able to sit for too long without barking and
+                general mayhem was impossible. We started walking around the
+                statue at the top of the hill and I started to realise we would
+                soon be walking down again. In the mud at the top of Windsor's
+                long walk, simultaneously, I dropped to one knee and asked (
+                although might have came out as a whisper ) Ceri to marry me,
+                Meg started barking, a mother shouted at her kids to 'look
+                away', and the only words I cared about hearing, Ceri shouted
+                back at me 'YES' before i had finished asking.
+              </p>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+              >
+                So here we are, having strung out our engagement for well over a
+                month with our wedding booked. Here's to the rest of our lives
+                together :)
               </p>
             </div>
           </div>
@@ -177,6 +210,12 @@
     </div>
     <div id="gryffs-thoughts" class="uk-section">
       <div class="uk-container">
+        <h2
+          class="calligraphy"
+          uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-260"
+        >
+          Gryff's Thoughts
+        </h2>
         <div class="uk-grid">
           <div class="uk-width-1-1 uk-width-2-5@m">
             <img
@@ -188,24 +227,15 @@
           </div>
           <div class="uk-width-1-1 uk-width-3-5@m">
             <div class="text-content uk-padding-small">
-              <h2
-                class="calligraphy"
-                uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-260"
-              >
-                Gryff's Thoughts
-              </h2>
               <p
                 uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
               >
-                On the 22nd July 2018 at the Griffin Pub in Caverham, Reading,
-                Alex and Ceri had a first date which was 7 hours long. It left
-                the waiting staff wondering if they would ever leave the
-                restaurant, the car parking inpectors no choice but to issue
-                tickets and both Alex and Ceri with the sense that this first
-                date was the start of something special. Fast forward through
-                Ceri's graduation as a midwife, 2 new jobs for Alex, a home
-                together with Gryff and 1 global pandemic, Alex got down onto
-                one knee and asked Ceri to marry him.
+                This is just the best news and I've really been looking forward
+                to dinner and being a ring bearer for my parents for a long time
+                now. I like long walks on the beach and Mummy and Daddy. I've
+                bought myself a bow tie for the occassion. If any squirrels or
+                cats gatecrash the wedding I'll sort them out. And birds. I do
+                hope there will be treats. and toys. It will be the best day.
               </p>
               <p
                 uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:2000"
