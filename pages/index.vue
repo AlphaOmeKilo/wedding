@@ -37,39 +37,85 @@
         </div>
       </nav>
     </div>
-    <div id="our-story" class="uk-section">
+    <div id="our-story" class="uk-section uk-padding-remove-top">
       <div class="uk-container">
+        <h2
+          class="calligraphy"
+          uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-260"
+        >
+          Our Story
+        </h2>
         <div class="uk-grid">
-          <div class="uk-width-1-1 uk-width-2-5@m">
+          
+          <div class="uk-width-1-1 uk-width-3-5@l uk-flex">
+            <div class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right">
+              <p
+                uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
+              >
+                Alex O'Keeffe, a swarthy young gentleman from the leafy suburbs
+                of Hanwell was no ordinary little boy. With his oversized
+                cranium, bottomless stomach and amiable personality, young Alex
+                was always popular, well loved and revered by friends and family
+                alike. Fast forward 28 years, several countries travelled,
+                thousands of beers chugged, dozens of gigs danced at, and dozens
+                of swipes on a little app called Bumble, he matches with his
+                future wife, Ceri, and the rest, they say, is history.
+              </p>
+              <div class="uk-flex uk-flex-center uk-padding-small uk-padding-remove-left uk-padding-remove-right">
+                <img
+                  uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
+                  data-src="~/assets/images/alexkid.jpeg"
+                  alt="alex"
+                  class="young"
+                  uk-img
+                />
+                <img
+                  uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
+                  data-src="~/assets/images/cerikid.jpeg"
+                  alt="ceri"
+                  class="young"
+                  uk-img
+                />
+              </div>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
+              >
+                Ceri Skelton, a beautiful young woman from the village of
+                Crowthorne, was no ordinary little girl. With her white as snow
+                complexion, dream of being a tooth fairy as well as her
+                thoughtful personality, young Ceri was well loved and revered by
+                friends and family alike, even when she declared herself to be
+                the late Esther Williams. Fast forward to the age of 26, having
+                played at the Royal Albert Hall, travelled to Uganda and
+                discovered a love for midwifery, loved 3 wonderful dogs in
+                Gryff, Meg and Dylan, as well as dozens of swipes on a little
+                app called Bumble, she matches with her future husband, Alex,
+                and the rest, they say, is history.
+              </p>
+            </div>
+          </div>
+          <div class="uk-width-1-1 uk-width-2-5@s uk-width-2-5@m uk-flex-first@l uk-padding uk-padding-remove-right uk-padding-remove-top">
             <img
               uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
-              data-src="~/assets/images/colourFam.jpeg"
+              data-src="~/assets/images/bawFam.jpg"
               alt="family"
               uk-img
             />
           </div>
-          <div class="uk-width-1-1 uk-width-3-5@m">
-            <div class="text-content uk-padding-small">
-              <h2
-                class="calligraphy"
-                uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-260"
-              >
-                Our Story
-              </h2>
-              <p
-                uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
-              >
-                On the 22nd July 2018 at the Griffin Pub in Caverham, Reading,
-                Alex and Ceri had a first date which was 7 hours long. It left
-                the waiting staff wondering if they would ever leave the
-                restaurant, the car parking inpectors no choice but to issue
-                tickets and both Alex and Ceri with the sense that this first
-                date was the start of something special. Fast forward through
-                Ceri's graduation as a midwife, 2 new jobs for Alex, a home
-                together with Gryff and 1 global pandemic, Alex got down onto
-                one knee and asked Ceri to marry him.
-              </p>
-            </div>
+          <div
+            class="uk-width-1-1 uk-width-3-5@s uk-width-3-5@m uk-width-1-1@l"
+            uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
+          >
+          <p>
+            On the 22nd July 2018 at the Griffin Pub in Caversham, Reading, Alex
+            and Ceri had their first date which was over 7 hours long. It left
+            the waiting staff wondering if they would ever leave the restaurant,
+            the car parking inspectors no choice but to issue tickets and both
+            Alex and Ceri with the sense that this first date was the start of
+            something special. After two years together, Ceri's graduation as a
+            midwife, 2 new jobs for Alex, a home together with Gryff and 1
+            global pandemic, Alex decided he liked it and put a ring on it.
+          </p>
           </div>
         </div>
       </div>
@@ -103,7 +149,7 @@
           <div class="uk-width-1-1 uk-width-2-5@m">
             <img
               uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
-              data-src="~/assets/images/colourFam.jpeg"
+              data-src="~/assets/images/ringhands.jpeg"
               alt="family"
               uk-img
             />
@@ -252,5 +298,13 @@ export default Vue.extend({
 #typeform {
   height: 100vh;
   min-height: 400px;
+}
+
+.young {
+  max-height: 200px;
+
+  &:first-of-type {
+    margin-right: 20%;
+  }
 }
 </style>
