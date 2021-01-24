@@ -28,6 +28,26 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width:  8px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $cornflower;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: $white;
+}
+
+// For Internet Explorer
+* {
+  scrollbar-face-color: $cornflower;
+  scrollbar-track-color: $white;
+}
+
 
 *,
 *::before,

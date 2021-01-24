@@ -226,7 +226,7 @@
             />
           </div>
           <div class="uk-width-1-1 uk-width-3-5@m">
-            <div class="text-content uk-padding-small">
+            <div class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right">
               <p
                 uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
               >
@@ -250,7 +250,7 @@
     <div id="order" class="uk-section">
       <div class="uk-container">
         <div class="uk-flex uk-flex-center">
-          <div class="uk-card uk-card-default uk-card-body uk-width-3-4">
+          <div class="uk-card uk-card-default uk-card-body uk-width-4-5 uk-width-3-4@m">
             <h2 class="calligraphy uk-text-center">Order of the day</h2>
             <div class="uk-grid">
               <h3 class="uk-width-2-5 calligraphy">1pm</h3>
