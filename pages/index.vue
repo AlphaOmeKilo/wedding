@@ -2,15 +2,16 @@
   <div>
     <div
       id="awreatha-container"
-      class="uk-section uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle"
+      uk-scrollspy="cls:uk-animation-fade; delay:1000"
+      class="uk-section uk-position-relative uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle"
     >
       <div class="uk-container uk-width-1-1">
         <div class="uk-grid uk-flex-center">
           <div
-            class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-position-relative"
+            class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-width-2-5@xl uk-position-relative"
           >
             <img
-              uk-scrollspy="cls:uk-animation-fade; delay:1000"
+              
               data-src="~/assets/images/awreatha.png"
               alt="awreatha"
               uk-img
@@ -18,6 +19,7 @@
           </div>
         </div>
       </div>
+      <span class="uk-position-absolute uk-position-bottom-center uk-padding uk-padding-remove-left uk-padding-remove-right bounce" uk-icon="icon: chevron-down; ratio: 2"></span>
     </div>
     <div id="menu" class="uk-section uk-flex uk-flex-center">
       <nav class="uk-navbar-container" uk-navbar>
@@ -190,22 +192,94 @@
         </div>
       </div>
     </div>
-    <div id="the-venue" class="uk-section uk-padding-remove-bottom">
+    <!-- <div id="the-venue" class="uk-section uk-padding-remove-bottom">
       <div
         class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
         data-src="~/assets/images/aisle.jpg"
         uk-parallax="bgy: -150"
         uk-img
       ></div>
-    </div>
+    </div> -->
     <div class="uk-section">
       <div class="uk-container">
         <h2
-          class="calligraphy uk-text-center"
-          uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-200"
+          class="calligraphy"
+          uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260"
         >
-          The Castle Hotel
+          Castle Hotel
         </h2>
+        <div class="uk-grid">
+          <div class="uk-width-1-1 uk-width-3-5@m uk-flex-last@m">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="100%"
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=castle%20hotel%20windsor&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    max-width: 100%;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div class="uk-width-1-1 uk-width-2-5@m">
+            <div
+              class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right"
+            >
+              <h3 class="calligraphy">Arrival and parking</h3>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+              >
+                Should you be driving by Sat Nav, the entrance is located on
+                Windsor's High Street. The on-site parking can accommodate over
+                100 cars. Overnight parking costs 25 GBP per vehicle and is on a
+                first-come, first-serve basis.
+              </p>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+              >
+                Alternatively there are other plenty of car parks within walking
+                distance and may be a better choice if you do not wish to stay
+                overnight. We always opt for Victoria Street car park. You can
+                find directions and prices
+                <a
+                  href="https://www.rbwm.gov.uk/home/transport-and-streets/parking/car-parks-and-park-and-ride/car-park/victoria-street"
+                  target="_blank"
+                  rel="noopener"
+                  >here.</a
+                >
+              </p>
+              <!-- <h3 class="calligraphy">Accommodation</h3>
+              <p
+                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+              >
+                As part of our wedding package, we have reserved 10 rooms for guests that will be held until April 11th. 
+                
+                The price for rooms at the discounted wedding rate are:
+
+                Double Room: 170.00
+                Single Room: 160.00
+
+                To book one of these rooms for the night of the wedding, email the hotel at H6618-re@accor.com or call on 01753 851 577 and use the code OKEE30052021.
+
+                Rooms are available from 3pm onwards but there is a luggage service whereby you can leave you bags with the conceirge and they will take them up to your room for you when it is ready. The prices above include breakfast.
+
+              </p> -->
+            </div>
+          </div>
+          
+        </div>
       </div>
     </div>
     <div id="gryffs-thoughts" class="uk-section">
@@ -226,7 +300,9 @@
             />
           </div>
           <div class="uk-width-1-1 uk-width-3-5@m">
-            <div class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right">
+            <div
+              class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right"
+            >
               <p
                 uk-scrollspy="cls:uk-animation-slide-right-small; offset-top:-230; delay: 250"
               >
@@ -250,7 +326,9 @@
     <div id="order" class="uk-section">
       <div class="uk-container">
         <div class="uk-flex uk-flex-center">
-          <div class="uk-card uk-card-default uk-card-body uk-width-4-5 uk-width-3-4@m">
+          <div
+            class="uk-card uk-card-default uk-card-body uk-width-4-5 uk-width-3-4@m"
+          >
             <h2 class="calligraphy uk-text-center">Order of the day</h2>
             <div class="uk-grid">
               <h3 class="uk-width-2-5 calligraphy">1pm</h3>
@@ -335,6 +413,24 @@ export default Vue.extend({
 
   &:first-of-type {
     margin-right: 20%;
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translate(-50%, 0);
+  }
+  40% {
+    transform: translate(-50%,-30px);
+  }
+  60% {
+    transform: translate(-50%,-15px);
   }
 }
 </style>
