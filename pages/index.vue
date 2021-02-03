@@ -492,7 +492,7 @@ export default Vue.extend({
 
 #rsvp-btn {
   position: fixed;
-  top: 20%;
+  top: 10%;
   left: 0;
   transform: rotate(90deg) translate(-50%, 24px);
   background-color: var(--aok-cornflower);
