@@ -1,5 +1,6 @@
 // Colors 
 $white: #f1f2f3;
+$pure-white: #ffffff;
 $black: #1b1c1e;
 $shadow: #9e9e9e;
 
@@ -14,6 +15,7 @@ $orange: #e19839;
 :root {
   --aok-black: #{$black};
   --aok-white: #{$white};
+  --aok-pure-white: #{$pure-white};
   --aok-shadow: #{$shadow};
   --aok-cornflower: #{$cornflower};
   --aok-purple: #{$purple};
@@ -27,6 +29,7 @@ $orange: #e19839;
 $colors-list: (
   'black': $black,
   'white': $white,
+  'pure-white': $pure-white,
   'shadow': $shadow,
   'cornflower': $cornflower,
   'purple': $purple,

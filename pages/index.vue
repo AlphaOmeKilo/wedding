@@ -1,5 +1,8 @@
 2<template>
-  <div>
+  <div class="uk-position-relative">
+    <div id="rsvp-btn">
+      <a href="#typeform">RSVP</a>
+    </div>
     <div
       id="awreatha-container"
       uk-scrollspy="cls:uk-animation-fade; delay:1000"
@@ -11,7 +14,6 @@
             class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-width-2-5@xl uk-position-relative"
           >
             <img
-              
               data-src="~/assets/images/awreatha.png"
               alt="awreatha"
               uk-img
@@ -19,7 +21,10 @@
           </div>
         </div>
       </div>
-      <span class="uk-position-absolute uk-position-bottom-center uk-padding uk-padding-remove-left uk-padding-remove-right bounce" uk-icon="icon: chevron-down; ratio: 2"></span>
+      <span
+        class="uk-position-absolute uk-position-bottom-center uk-padding uk-padding-remove-left uk-padding-remove-right bounce"
+        uk-icon="icon: chevron-down; ratio: 2"
+      ></span>
     </div>
     <div id="menu" class="uk-section uk-flex uk-flex-center">
       <nav class="uk-navbar-container" uk-navbar>
@@ -30,6 +35,7 @@
             <li><a href="#our-story" class="lsbold">Our Story</a></li>
             <li><a href="#the-proposal" class="lsbold">The Proposal</a></li>
             <li><a href="#the-venue" class="lsbold">The Venue</a></li>
+            <li><a href="#accommodation" class="lsbold">Accommodation</a></li>
             <li>
               <a href="#gryffs-thoughts" class="lsbold">Gryff's Thoughts</a>
             </li>
@@ -128,7 +134,7 @@
         </div>
       </div>
     </div>
-    <div id="the-proposal" class="uk-section">
+    <div id="the-proposal" class="uk-section pure-white--bg">
       <div class="uk-container">
         <h2
           class="calligraphy"
@@ -200,7 +206,7 @@
         uk-img
       ></div>
     </div> -->
-    <div class="uk-section">
+    <div id="the-venue" class="uk-section">
       <div class="uk-container">
         <h2
           class="calligraphy"
@@ -237,7 +243,7 @@
             <div
               class="text-content uk-padding-small uk-padding-remove-left uk-padding-remove-right"
             >
-              <h3 class="calligraphy">Arrival and parking</h3>
+              <h3 class="calligraphy" uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260">Arrival and parking</h3>
               <p
                 uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
               >
@@ -260,29 +266,66 @@
                   >here.</a
                 >
               </p>
-              <!-- <h3 class="calligraphy">Accommodation</h3>
-              <p
-                uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
-              >
-                As part of our wedding package, we have reserved 10 rooms for guests that will be held until April 11th. 
-                
-                The price for rooms at the discounted wedding rate are:
-
-                Double Room: 170.00
-                Single Room: 160.00
-
-                To book one of these rooms for the night of the wedding, email the hotel at H6618-re@accor.com or call on 01753 851 577 and use the code OKEE30052021.
-
-                Rooms are available from 3pm onwards but there is a luggage service whereby you can leave you bags with the conceirge and they will take them up to your room for you when it is ready. The prices above include breakfast.
-
-              </p> -->
             </div>
           </div>
-          
+        </div>
+        <div id="accommodation" class="uk-grid">
+          <div class="uk-width-1-1">
+            <h3 class="calligraphy" uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260">Accommodation</h3>
+            <p
+              uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+            >
+              As part of our wedding package, we have reserved 10 rooms for
+              guests that will be held until April 11th. The price for rooms at
+              the discounted wedding rate are:
+            </p>
+            <p
+              uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+            >
+              Double Room: 170.00</br>Single Room:
+              160.00
+            </p>
+            <p
+              uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+            >
+              To book one of these rooms for the night of the wedding,
+              email the hotel at <a href="mailto:H6618-re@accor.com">H6618-re@accor.com</a> or call on <a href="tel:01753851577">01753 851 577</a> and
+              use the code <strong>OKEE30052021</strong>. Rooms are available from 3pm onwards
+              but there is a luggage service whereby you can leave you bags with
+              the conceirge and they will take them up to your room for you when
+              it is ready. The prices above include breakfast.
+            </p>
+          </div>
+          <div class="uk-width-1-1 uk-padding">
+            <h3 class="calligraphy" uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-260">Alternative accommodation</h3>
+            <p
+              uk-scrollspy="cls:uk-animation-slide-left-small; offset-top:-230; delay:250"
+            >
+              If you wish to stay but not at the Castle Hotel, there are many alternatives in the local area. Some of which are listed below.
+            </p>
+          </div>
+          <div class="uk-width-1-1 uk-width-1-3@m" uk-scrollspy="cls:uk-animation-scale-up; offset-top:-230; delay:250">
+            <a href="https://www.travelodge.co.uk/hotels/329/Windsor-Central-hotel" class=" uk-flex uk-flex-column" target="_blank" rel="noopener">
+              <div class="hotel cornflower--bg" data-src="~/assets/images/travelodge.jpeg" uk-img></div>
+              <h3 class="calligraphy uk-text-center">Travelodge Windsor Central</h3>
+            </a>
+          </div>
+          <div class="uk-width-1-1 uk-width-1-3@m" uk-scrollspy="cls:uk-animation-scale-up; offset-top:-230; delay:300">
+            <a href="https://www.ihg.com/holidayinnexpress/hotels/gb/en/windsor/lonwx/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-GB-_-LONWX" class=" uk-flex uk-flex-column" target="_blank" rel="noopener">
+              <div class="hotel cornflower--bg" data-src="~/assets/images/holiday-inn.jpg" uk-img></div>
+              <h3 class="calligraphy uk-text-center">Holiday Inn Express</h3>
+            </a>
+          </div>
+          <div class="uk-width-1-1 uk-width-1-3@m" uk-scrollspy="cls:uk-animation-scale-up; offset-top:-230; delay:350">
+            <a href="https://sirchristopherwren.co.uk/" class=" uk-flex uk-flex-column" target="_blank" rel="noopener">
+              <div class="hotel cornflower--bg" data-src="~/assets/images/christopherwren.jpg" uk-img></div>
+              <h3 class="calligraphy uk-text-center">Sir Christopher Wren</h3>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <div id="gryffs-thoughts" class="uk-section">
+    <div id="gryffs-thoughts" class="uk-section pure-white--bg">
       <div class="uk-container">
         <h2
           class="calligraphy"
@@ -323,7 +366,7 @@
         </div>
       </div>
     </div>
-    <div id="order" class="uk-section">
+    <!-- <div id="order" class="uk-section">
       <div class="uk-container">
         <div class="uk-flex uk-flex-center">
           <div
@@ -347,7 +390,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="uk-section">
       <Typeform
         id="typeform"
@@ -416,6 +459,15 @@ export default Vue.extend({
   }
 }
 
+.hotel {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -423,14 +475,39 @@ export default Vue.extend({
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translate(-50%, 0);
   }
   40% {
-    transform: translate(-50%,-30px);
+    transform: translate(-50%, -30px);
   }
   60% {
-    transform: translate(-50%,-15px);
+    transform: translate(-50%, -15px);
+  }
+}
+
+#rsvp-btn {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  transform: rotate(90deg) translate(-50%, 24px);
+  background-color: var(--aok-cornflower);
+  padding: 12px 24px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  z-index: 1000;
+  a {
+    color: var(--aok-white);
+    text-decoration: none;
+    transition: 1s;
+
+    &:hover {
+      color: var(--aok-yellow);
+    }
   }
 }
 </style>
