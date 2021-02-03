@@ -22,7 +22,7 @@
         </div>
       </div>
       <span
-        class="uk-position-absolute uk-position-bottom-center uk-padding uk-padding-remove-left uk-padding-remove-right bounce"
+        class="uk-position-absolute chevron uk-padding uk-padding-remove-left uk-padding-remove-right bounce"
         uk-icon="icon: chevron-down; ratio: 2"
       ></span>
     </div>
@@ -509,5 +509,11 @@ export default Vue.extend({
       color: var(--aok-yellow);
     }
   }
+}
+
+.chevron {
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -100%);
 }
 </style>
