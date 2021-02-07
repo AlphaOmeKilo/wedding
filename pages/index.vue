@@ -5,11 +5,10 @@
     </div>
     <div
       id="awreatha-container"
-      uk-scrollspy="cls:uk-animation-fade; delay:1000"
-      class="uk-section uk-position-relative uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle"
+      class="uk-section-large uk-position-relative uk-padding-remove-top uk-padding-remove-bottom@s uk-flex uk-flex-middle"
     >
-      <div class="uk-container uk-width-1-1">
-        <div class="uk-grid uk-flex-center">
+      <div class="uk-container uk-width-1-1" uk-scrollspy="cls:uk-animation-fade; delay:1000">
+        <div class="uk-grid uk-flex-center@s">
           <div
             class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-width-2-5@xl uk-position-relative"
           >
@@ -366,31 +365,51 @@
         </div>
       </div>
     </div>
-    <!-- <div id="order" class="uk-section">
+    <div id="order" class="uk-section">
       <div class="uk-container">
         <div class="uk-flex uk-flex-center">
           <div
-            class="uk-card uk-card-default uk-card-body uk-width-4-5 uk-width-3-4@m"
+            uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-260"
+            class="uk-card uk-card-default uk-card-body uk-width-4-5 uk-width-2-5@m uk-width-3-4@m"
           >
             <h2 class="calligraphy uk-text-center">Order of the day</h2>
-            <div class="uk-grid">
-              <h3 class="uk-width-2-5 calligraphy">1pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">
-                Guest arrival for drinks reception
-              </div>
-              <h3 class="uk-width-2-5 calligraphy">1.45pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">
-                Guests take their seats for the ceremony
-              </div>
-              <h3 class="uk-width-2-5 calligraphy">2pm</h3>
-              <div class="uk-width-3-5 uk-flex uk-flex-middle">
-                Ceremony begins
-              </div>
-            </div>
+            <h3 class="calligraphy">13:30 - 14:00</h3>
+            <p>Guests take their seats</p>
+            <h3 class="calligraphy">14:00 - 14:30</h3>
+            <p>Ceremony commences</p>
+            <h3 class="calligraphy">14:30 - 17:00</h3>
+            <p>Drinks reception</p>
+            <h3 class="calligraphy">17:00 - 19:00</h3>
+            <p>Wedding breakfast</p>
+            <h3 class="calligraphy">19:00 - 19:30</h3>
+            <p>Speeches</p>
+            <h3 class="calligraphy">20:00 - 20:15</h3>
+            <p>Cutting of the cake</p>
+            <h3 class="calligraphy">20:15 - 00:00</h3>
+            <p>Evening reception</p>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+    <div class="uk-section pure-white--bg">
+      <div class="uk-container">
+        <h2
+          class="calligraphy uk-text-center"
+          uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-260"
+        >
+          Gift Registry
+        </h2>
+        <p
+          uk-scrollspy="cls:uk-animation-slide-bottom-small; offset-top:-230; delay: 250"
+        >
+          We of course do not expect any gifts as your presence at our wedding ( be it in person or virtually ) is more than enough, but if you did still want to gift to our wedding fund
+          then we have set up a PayPal pool. We will be looking to book a honeymoon, hopefully to Italy, when the world is a little less locked down and any contribution towards that would be extremely appreciated. 
+        </p>
+        <div class="uk-flex uk-flex-center uk-padding uk-padding-remove-bottom">
+          <a class="contribute" href="https://paypal.me/pools/c/8wJprRYs4s" target="_blank" rel="noopener">Contrbute to the wedding fund</a>
+        </div>
+      </div>
+    </div>
     <div class="uk-section">
       <Typeform
         id="typeform"
@@ -503,7 +522,7 @@ export default Vue.extend({
   a {
     color: var(--aok-white);
     text-decoration: none;
-    transition: 1s;
+    transition: 0.25s;
 
     &:hover {
       color: var(--aok-yellow);
@@ -513,7 +532,31 @@ export default Vue.extend({
 
 .chevron {
   left: 50%;
-  bottom: 0;
-  transform: translate(-50%, -100%);
+  bottom: 60px;
+}
+
+.contribute {
+  border: 1px solid var(--aok-cornflower);
+  background: var(--aok-cornflower);
+  color: var(--aok-white);
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.25s;
+
+  &:hover {
+    color: var(--aok-yellow);
+  }
+}
+
+#order {
+  text-align: center;
+
+  .uk-card {
+    border-radius: 6px;
+  }
+  p {
+    font-size: 28px;
+  }
 }
 </style>
