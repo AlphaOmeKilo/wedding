@@ -65,7 +65,7 @@
                 cranium, bottomless stomach and amiable personality, young Alex
                 was always popular, well loved and revered by friends and family
                 alike. Fast forward 28 years, several countries travelled,
-                thousands of beers chugged, dozens of gigs danced at, and dozens
+                thousands of beers chugged, lots of gigs danced at, and dozens
                 of swipes on a little app called Bumble, he matches with his
                 future wife, Ceri, and the rest, they say, is history.
               </p>
