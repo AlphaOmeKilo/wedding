@@ -8,7 +8,7 @@
       class="uk-section-large uk-position-relative uk-padding-remove-top uk-padding-remove-bottom@s uk-flex uk-flex-middle"
     >
       <div class="uk-container uk-width-1-1" uk-scrollspy="cls:uk-animation-fade; delay:1000">
-        <div class="uk-grid uk-flex-center@s">
+        <div class="uk-grid uk-flex-center">
           <div
             class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-width-2-5@xl uk-position-relative"
           >
@@ -21,7 +21,7 @@
         </div>
       </div>
       <span
-        class="uk-position-absolute chevron uk-padding uk-padding-remove-left uk-padding-remove-right bounce"
+        class="uk-position-absolute uk-position-bottom-center chevron bounce"
         uk-icon="icon: chevron-down; ratio: 2"
       ></span>
     </div>
@@ -406,7 +406,7 @@
           then we have set up a PayPal pool. We will be looking to book a honeymoon, hopefully to Italy, when the world is a little less locked down and any contribution towards that would be extremely appreciated. 
         </p>
         <div class="uk-flex uk-flex-center uk-padding uk-padding-remove-bottom">
-          <a class="contribute" href="https://paypal.me/pools/c/8wJprRYs4s" target="_blank" rel="noopener">Contrbute to the wedding fund</a>
+          <a class="contribute" href="https://paypal.me/pools/c/8wJprRYs4s" target="_blank" rel="noopener">Contribute to the wedding fund</a>
         </div>
       </div>
     </div>
