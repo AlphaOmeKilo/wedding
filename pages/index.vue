@@ -165,7 +165,7 @@
                 of the hill overlooking Windsor and the castle. We went to sit
                 down and I poured some luke-warm hot chocolate ( I had forgotten
                 to put the thermal lid back on the flask having been a bit
-                preoccupied.. ). The plan had initially been to propose as we
+                preoccupied... ). The plan had initially been to propose as we
                 sat there, but as we had both Gryff and Meg (Ceri's mum's dog)
                 with us, being able to sit for too long without barking and
                 general mayhem was impossible. We started walking around the
