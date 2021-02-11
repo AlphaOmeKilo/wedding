@@ -21,7 +21,7 @@
         </div>
       </div>
       <span
-        class="uk-position-absolute uk-position-bottom-center chevron bounce uk-visible@s"
+        class="uk-position-absolute uk-position-bottom-center uk-padding chevron bounce uk-visible@s"
         uk-icon="icon: chevron-down; ratio: 2"
       ></span>
     </div>
