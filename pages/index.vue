@@ -376,17 +376,25 @@
             <h3 class="calligraphy">13:30 - 14:00</h3>
             <p>Guests take their seats</p>
             <h3 class="calligraphy">14:00 - 14:30</h3>
-            <p>Ceremony commences</p>
-            <h3 class="calligraphy">14:30 - 17:00</h3>
-            <p>Drinks reception</p>
-            <h3 class="calligraphy">17:00 - 19:00</h3>
+            <p>Ceremony</p>
+            <h3 class="calligraphy">14:45</h3>
+            <p>Confetti line</p>
+            <h3 class="calligraphy">15:00 - 16:00</h3>
+            <p>Drinks reception with canapes</p>
+            <h3 class="calligraphy">16:00 - 16:30</h3>
+            <p>Seated for wedding breakfast</p>
+            <h3 class="calligraphy">16:30 - 18:00</h3>
             <p>Wedding breakfast</p>
-            <h3 class="calligraphy">19:00 - 19:30</h3>
+            <h3 class="calligraphy">18:00 - 19:00</h3>
             <p>Speeches</p>
-            <h3 class="calligraphy">20:00 - 20:15</h3>
+            <h3 class="calligraphy">19:00</h3>
             <p>Cutting of the cake</p>
-            <h3 class="calligraphy">20:15 - 00:00</h3>
-            <p>Evening reception</p>
+            <h3 class="calligraphy">19:30</h3>
+            <p>First dance</p>
+            <h3 class="calligraphy">21:00</h3>
+            <p>Evening buffet</p>
+            <h3 class="calligraphy">00:00</h3>
+            <p>Finish</p>
           </div>
         </div>
       </div>
