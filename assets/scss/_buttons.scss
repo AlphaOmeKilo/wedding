@@ -1,27 +1,34 @@
-button {
-  box-sizing: border-box;
+.button {
+  border: 1px solid var(--aok-cornflower);
+  background: var(--aok-cornflower);
+  color: var(--aok-white);
   padding: 12px 24px;
   border-radius: 6px;
-  font-size: 18px;
-  font-family: "Luis Sans Regular", sans-serif;
-  border: none;
-  cursor: pointer;
+  text-decoration: none;
+  transition: 0.25s;
 
-  &.primary {
-    background-color: $cornflower;
-    color: $white;
-
-    &.text {
-      background-color: transparent;
-      color: $cornflower;
-      padding-left: 0;
-      padding-right: 0;
+  .uk-icon {
+    svg {
+      polygon,
+      circle {
+        stroke: var(--aok-white) !important;
+      }
     }
   }
 
-  &:focus {
-    outline:0;
+  &:hover {
+    color: var(--aok-yellow);
+    text-decoration: none;
+
+    .uk-icon {
+      svg {
+        polygon,
+        circle {
+          stroke: var(--aok-yellow) !important;
+        }
+      }
+    }
   }
+
+  
 }
-
-
