@@ -22,7 +22,7 @@
         uk-icon="icon: chevron-down; ratio: 2"
       ></span>
     </div>
-     <div id="video" class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+     <div id="video" class="uk-section uk-flex uk-flex-column uk-flex-center uk-flex-middle">
       <div class="uk-flex uk-flex-center uk-padding uk-padding-remove-bottom">
         <a class="button" href="https://zoom.us/j/98981750334?pwd=ZGg3TDVaYU1URk9BallaY0JVTktuZz09" target="_blank" rel="noopener">
         <span uk-icon="icon: play-circle; ratio: 2" class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical"></span>
@@ -31,7 +31,7 @@
       </div>
       <span class="uk-padding-small uk-padding-remove-bottom">Meeting ID: <span class="lsbold">989 8175 0334</span></span>
       <span class="uk-padding-small uk-padding-remove-top">Cermony start time: <span class="lsbold">2pm Sunday 30th May</span></span>
-      <span class="uk-width-1-2@m uk-text-center">After the ceremony ends, and we exit the room, we will pop back to say quick hello to everyone on the zoom call.<br/>We will then politely ask you all to drop off the call so we can speak to Ceri's Nan privately. See you all on Sunday!</span>
+      <span class="uk-width-4-5 uk-width-1-2@m uk-text-center">After the ceremony ends, and we exit the room, we will pop back to say quick hello to everyone on the zoom call.<br/>We will then politely ask you all to drop off the call so we can speak to Ceri's Nan privately. See you all on Sunday!</span>
     </div>
     <div id="menu" class="uk-section uk-flex uk-flex-center">
       <nav class="uk-navbar-container" uk-navbar>
