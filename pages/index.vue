@@ -1,14 +1,13 @@
 2<template>
   <div class="uk-position-relative">
     <div
-      id="awreatha-container" 
-      uk-scrollspy="cls:uk-animation-fade; delay:1000" 
-      class="uk-section-large uk-position-relative uk-padding-remove-top uk-padding-remove-bottom@s uk-flex uk-flex-column uk-flex-middle uk-flex-center"
+      id="awreatha-container"
+      class="uk-section-large uk-position-relative uk-padding-remove-top uk-padding-remove-bottom@s uk-flex uk-flex-middle"
     >
-      <div class="uk-container uk-width-1-1">
+      <div class="uk-container uk-width-1-1" uk-scrollspy="cls:uk-animation-fade; delay:1000">
         <div class="uk-grid uk-flex-center">
           <div
-            class="uk-width-3-5 uk-width-3-5@m uk-width-2-5@l uk-width-1-3@xl uk-position-relative"
+            class="uk-width-3-4 uk-width-2-3@m uk-width-1-2@l uk-width-2-5@xl uk-position-relative"
           >
             <img
               data-src="~/assets/images/awreatha.png"
@@ -18,7 +17,12 @@
           </div>
         </div>
       </div>
-      
+      <span
+        class="uk-position-absolute uk-position-bottom-center uk-padding chevron bounce uk-visible@s"
+        uk-icon="icon: chevron-down; ratio: 2"
+      ></span>
+    </div>
+     <div id="video" class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
       <div class="uk-flex uk-flex-center uk-padding uk-padding-remove-bottom">
         <a class="button" href="https://zoom.us/j/98981750334?pwd=ZGg3TDVaYU1URk9BallaY0JVTktuZz09" target="_blank" rel="noopener">
         <span uk-icon="icon: play-circle; ratio: 2" class="uk-padding-small uk-padding-remove-left uk-padding-remove-vertical"></span>
@@ -27,7 +31,7 @@
       </div>
       <span class="uk-padding-small uk-padding-remove-bottom">Meeting ID: <span class="lsbold">989 8175 0334</span></span>
       <span class="uk-padding-small uk-padding-remove-top">Cermony start time: <span class="lsbold">2pm Sunday 30th May</span></span>
-      <span class="uk-width-1-2 uk-text-center">After the ceremony ends, and we exit the room, we will pop back to say quick hello to everyone on the zoom call.<br/>We will then politely ask you all to drop off the call so we can speak to Ceri's Nan privately. See you all on Sunday!</span>
+      <span class="uk-width-1-2@m uk-text-center">After the ceremony ends, and we exit the room, we will pop back to say quick hello to everyone on the zoom call.<br/>We will then politely ask you all to drop off the call so we can speak to Ceri's Nan privately. See you all on Sunday!</span>
     </div>
     <div id="menu" class="uk-section uk-flex uk-flex-center">
       <nav class="uk-navbar-container" uk-navbar>
@@ -200,14 +204,6 @@
         </div>
       </div>
     </div>
-    <!-- <div id="the-venue" class="uk-section uk-padding-remove-bottom">
-      <div
-        class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
-        data-src="~/assets/images/aisle.jpg"
-        uk-parallax="bgy: -150"
-        uk-img
-      ></div>
-    </div> -->
     <div id="the-venue" class="uk-section">
       <div class="uk-container">
         <h2
